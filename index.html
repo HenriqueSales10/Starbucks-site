@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Starbucks website</title>
+</head>
+<body>
+    
+    <section>
+        <div class="circle"></div>
+    <header>
+        <a href="#">
+            <img class="logo" src="./images/logo.png" alt="">
+        </a>
+        
+        <ul>
+        
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">What's new</a></li>
+            <li><a href="#">Contact</a></li>
+
+        </ul>
+    </header>
+
+    <main>
+        <div class="textBox">
+            <h2>It's no just Coffe <br>It's <span>Starbucks</span></h2>
+            
+            <p>Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit. 
+                Integer at volutpat dui. 
+                Nullam blandit rutrum eros, quis 
+                malesuada tellus. Sed imperdiet 
+                lectus et arcu pharetra fringilla. 
+                Aliquam auctor, lorem rutrum ferme.
+            </p>
+
+            <a href="#">Read More</a>
+        </div>
+
+        <div class="imgBox">
+                <img class="starbucks" src="./images/img1.png" alt="image starbucks green">
+        </div>
+
+        
+   
+    </main>
+
+        <ul class="thumb">
+            <li><img src="./images/thumb1.png" onclick="imgSlider('./images/img1.png');changeCircleColor('#017143')" alt="Image green one"></li>
+            <li><img src="./images/thumb2.png" onclick="imgSlider('./images/img2.png');changeCircleColor('#eb7495')" alt="Image coffe two"></li>
+            <li><img src="./images/thumb3.png" onclick="imgSlider('./images/img3.png');changeCircleColor('#d752b1')" alt="Image coffe three"></li>
+        </ul>
+    
+        <ul class="sci">
+           
+            <li><a href="#"><img src="./images/facebook.png" alt="Logo facebook"></a></li>
+            <li><a href="#"><img src="./images/twitter.png" alt="logo facebook"></a></li>
+            <li><a href="#"><img src="./images/instagram.png" alt="logo facebook"></a></li>
+
+        </ul>
+    </section>
+   
+   <script src="script.js">
+    
+    </script>
+</body>
+</html>
